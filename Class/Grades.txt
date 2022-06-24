@@ -1,0 +1,23 @@
+public class Grades
+{
+	public static void main(String[] args)
+	{
+		int grade = 45.00;
+		
+		if (grade>=85){
+			System.out.println("Student grade is A");
+		}if else (70<=grade<85){
+			System.out.println("Student grade is B");
+		}if else (55<=grade<70){
+			System.out.println("Student grade is C");
+		}if else (40<=grade<55){
+			System.out.println("Student grade is D");
+		}if else (25<=grade<40){
+			System.out.println("Student grade is E");
+		}if else (10<=grade<25){
+			System.out.println("Student grade is F");
+		}else{
+			System.out.println("Student grade is C");
+		}
+	}
+}
